@@ -1,0 +1,22 @@
+#.gitignore for repository root
+
+# Virtual environment
+.venv/
+
+# Extracted docx text and helper scripts
+Backend/extracted_text/
+scripts/
+
+# Node / build
+node_modules/
+dist/
+dist-ssr/
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Env files
+.env
+.env.local
