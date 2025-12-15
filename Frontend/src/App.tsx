@@ -1,0 +1,26 @@
+import { ThemeProvider } from './context/ThemeContext';
+import { Navbar } from './components/Navbar';
+import { Hero } from './components/Hero';
+import { Experience } from './components/Experience';
+import { Projects } from './components/Projects';
+import { About } from './components/About';
+import { Contact } from './components/Contact';
+import { Footer } from './components/Footer';
+
+function App() {
+  return (
+    <ThemeProvider>
+      <div className="app-wrapper">
+        <Navbar />
+        <Hero />
+        <Experience />
+        <Projects />
+        <About />
+        <Contact />
+        <Footer />
+      </div>
+    </ThemeProvider>
+  );
+}
+
+export default App;
