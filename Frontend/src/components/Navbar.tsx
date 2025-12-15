@@ -1,8 +1,12 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Code2 } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { ThemeToggle } from './ThemeToggle';
+import { useTheme } from '../context/ThemeContext';
+import lightModeLogo from '../assets/lightmodelogo.png';
+import darkModeLogo from '../assets/darkmodelogo.png';
 
 export function Navbar() {
+    const { theme } = useTheme();
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -26,10 +30,11 @@ export function Navbar() {
                 <div className="navbar-content">
                     {/* Logo */}
                     <div className="navbar-logo">
-                        <Code2 className="icon" />
-                        <span className="logo-text">
-                            DevPortfolio
-                        </span>
+                        <img
+                            src={theme === 'dark' ? darkModeLogo : lightModeLogo}
+                            alt="Robin Logo"
+                            className="logo-img"
+                        />
                     </div>
 
                     {/* Desktop Navigation */}

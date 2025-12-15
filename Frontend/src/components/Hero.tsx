@@ -1,4 +1,5 @@
 import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
+import robinpic from '../assets/robinpic.png';
 
 export function Hero() {
     return (
@@ -23,12 +24,11 @@ export function Hero() {
                     {/* Main heading */}
                     <div className="hero-headings">
                         <h1 className="hero-title">
-                            <span className="block-text">
-                                Robinson C. Domingo
+                            <span className="name-with-avatar">
+                                <img src={robinpic} alt="Robinson C. Domingo" className="avatar-inline" />
+                                <span className="block-text">Robinson C. Domingo</span>
                             </span>
-                            <span className="gradient-text">
-                                QA Automation Engineer & Python Developer
-                            </span>
+                            <span className="gradient-text">QA Automation Engineer & Python Developer</span>
                         </h1>
                         <p className="hero-description">
                             4+ years of experience in IT infrastructure management, automation testing,

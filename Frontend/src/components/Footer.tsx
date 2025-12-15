@@ -9,9 +9,9 @@ export function Footer() {
                 <div className="footer-content">
                     {/* Copyright */}
                     <div className="copyright">
-                        <span>© {currentYear} DevPortfolio. Made with</span>
+                        <span>© {currentYear} RCD Portfolio. Made with</span>
                         <Heart className="icon-xs text-red" />
-                        <span>by a Senior Developer</span>
+                        <span>by RCD</span>
                     </div>
 
                     {/* Social Links */}
