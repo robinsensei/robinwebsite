@@ -17,9 +17,9 @@ const experiences: Experience[] = [
         location: 'Pasig, Quezon City',
         period: 'April 2024 – December 2024',
         achievements: [
-            'Automated data gathering, cleaning, report generation, and analysis processes using Python and spreadsheet tools to improve logistics reporting efficiency',
-            'Created complex Google Sheets and Excel files for data collection, management, and tracking',
-            'Developed clear data visualizations to communicate analysis findings to the team and facilitate easier understanding of key metrics'
+            'Automated data gathering, cleaning, and reporting using Python and spreadsheets — reduced manual reporting time by 40%',
+            'Built complex Google Sheets and Excel solutions for reliable data collection, tracking, and consolidation',
+            'Produced clear data visualizations and dashboards to surface key logistics metrics for stakeholders'
         ]
     },
     {
@@ -27,14 +27,16 @@ const experiences: Experience[] = [
         role: 'Data System Analyst (ICTD)',
         company: 'Cooperative Development Authority',
         location: 'Cubao, Quezon City',
-        period: 'June 2021 – 2023',
+        period: 'June 2021 – December 2023',
         achievements: [
-            'Troubleshot and diagnosed problems to accurately resolve a wide range of technical issues for end-users',
-            'Configured hardware, devices, and software to efficiently set up and maintain workstations for new and existing employees',
-            'Provided end-user support via telephone, email, and in-person inquiries, patiently walking individuals through basic troubleshooting tasks',
-            'Trained users on the operation of the Computer System, ensuring smooth adoption of new technologies',
-            'Initiated an Access database for improved resource utilization, reducing costs through strategic management and contract analysis'
+            'Analyzed and monitored information systems to ensure data accuracy and system reliability',
+            'Performed QA activities including manual testing, Python automation, and API testing to validate functionality and data integrity',
+            'Troubleshot and resolved 50+ hardware and software issues per month, maintaining high user satisfaction',
+            'Configured and maintained workstations, devices, and software to support business operations',
+            'Provided end-user support via phone, email, and in-person assistance; delivered user training to improve adoption',
+            'Implemented an Access database to optimize resource utilization and reduce operational costs'
         ]
+
     },
     {
         id: 3,
@@ -43,10 +45,9 @@ const experiences: Experience[] = [
         location: 'Cubao, Quezon City',
         period: 'February 2019 – June 2021',
         achievements: [
-            'Provided technical assistance to the Finance and HR Divisions, helping to streamline their processes and improve workflow',
-            'Contributed to finance operations by overseeing budgets, payroll, and accounts payable and receivable',
-            'Assisted in the preparation of accurate financial statements at the end of the quarter',
-            'Directed budget development, creation of budgetary controls, and maintained recordkeeping systems'
+            'Provided technical support to Finance and HR divisions, streamlining processes and improving workflow efficiency',
+            'Supported finance operations including payroll, accounts payable/receivable, and preparation of financial statements',
+            'Developed budgetary controls and maintained accurate recordkeeping systems to support audits and reporting'
         ]
     }
 ];
@@ -61,7 +62,7 @@ export function Experience() {
                         Work Experience
                     </h2>
                     <p className="section-subtitle">
-                        4+ years of professional experience in IT infrastructure, automation, and data analysis
+                        Experienced IT Professional with over 4 years of hands-on experience in IT infrastructure, automation testing, and data analysis
                     </p>
                 </div>
 

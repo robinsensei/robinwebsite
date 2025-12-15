@@ -1,5 +1,7 @@
 import { ExternalLink, Github } from 'lucide-react';
 
+import { useEffect, useRef, useState } from 'react';
+
 interface Project {
     id: number;
     title: string;
@@ -14,7 +16,7 @@ const projects: Project[] = [
     {
         id: 1,
         title: 'Python Automation Projects',
-        description: 'Automated data gathering, cleaning, and report generation system using Python. Auto detection using Tesseract OCR and data analytics using Pandas, NumPy, Matplotlib.',
+        description: 'Automated data ingestion, cleaning, and report generation using Python (Pandas/NumPy) and Tesseract OCR for document extraction. Built analytics pipelines and visualizations to reduce manual processing and speed reporting.',
         tags: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'OCR', 'Automation'],
         image: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&h=600&fit=crop',
         liveUrl: 'https://github.com',
@@ -23,32 +25,29 @@ const projects: Project[] = [
     {
         id: 3,
         title: 'Network Monitoring Dashboard',
-        description: 'Real-time network infrastructure monitoring tool with SIEM integration. Provides security analytics and threat detection capabilities.',
+        description: 'Real-time network monitoring dashboard with SIEM integration (security analytics and alerting). Enables faster detection and investigation of security events and operational issues.',
         tags: ['Network Security', 'SIEM', 'Monitoring', 'Analytics'],
         image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=600&fit=crop',
-
     },
     {
         id: 4,
         title: 'QA Automation Framework',
-        description: 'End-to-end test automation framework using Selenium and PyTest, focused on reliable end-to-end and integration testing.',
-        tags: ['Selenium', 'PyTest', 'Automation', 'Testing'],
+        description: 'End-to-end automation framework built with Selenium and PyTest for integration and regression testing. Designed for reliability and CI integration to reduce manual regression effort.',
+        tags: ['Selenium', 'PyTest', 'Automation', 'Testing', 'CI/CD'],
         image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=600&fit=crop',
         githubUrl: 'https://github.com/robinsensei/pythontest',
     },
     {
         id: 5,
         title: 'API Testing Suite',
-        description: 'Robust API testing harness built with Postman/Newman and Python for contract testing and automated regression checks.',
-        tags: ['API', 'Testing', 'Postman', 'Python'],
+        description: 'API contract and regression testing harness using Postman/Newman and Python, integrated into CI pipelines for automated verification of endpoints and stability checks.',
+        tags: ['API', 'Testing', 'Postman', 'Python', 'CI/CD'],
         image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&h=600&fit=crop',
-
     },
-    
     {
         id: 7,
         title: 'Data Warehouse ETL',
-        description: 'ETL pipelines for consolidating logistics data into a data warehouse, with automated scheduling and incremental loads.',
+        description: 'ETL pipelines consolidating logistics data into a central data warehouse with automated scheduling and incremental loads for efficient reporting and analytics.',
         tags: ['ETL', 'SQL', 'Data Warehouse'],
         image: 'https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800&h=600&fit=crop',
         liveUrl: 'https://github.com',
@@ -56,16 +55,14 @@ const projects: Project[] = [
     },
     {
         id: 8,
-        title: 'Web Development',
-        description: 'This website is built using Java (backend) and React with Vite (frontend). It is deployed on Azure (free tier) and Vercel for fast edge delivery.',
+        title: 'Full-Stack Web Project',
+        description: 'Full-stack application with a Java backend and React + Vite frontend. Deployed to Azure and Vercel for scalable hosting and fast delivery at the edge.',
         tags: ['Java', 'React', 'Vite', 'Azure', 'Vercel', 'Web Development'],
         image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=600&fit=crop',
         liveUrl: 'https://urban-sync.vercel.app/',
         githubUrl: 'https://github.com/robinsensei/urbansync-prod',
     },
 ];
-
-import { useEffect, useRef, useState } from 'react';
 
 export function Projects() {
     const trackRef = useRef<HTMLDivElement | null>(null);
@@ -143,7 +140,7 @@ export function Projects() {
                 <div className="section-header">
                     <h2 className="section-title">Featured Projects</h2>
                     <p className="section-subtitle">
-                        Automation and data analysis projects showcasing expertise in Python, testing, and infrastructure management
+                        Selected automation, testing, and data engineering projects demonstrating Python, QA automation, and infrastructure expertise
                     </p>
                 </div>
 

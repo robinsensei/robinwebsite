@@ -31,9 +31,7 @@ export function Hero() {
                             <span className="gradient-text">QA Automation Engineer & Python Developer</span>
                         </h1>
                         <p className="hero-description">
-                            4+ years of experience in IT infrastructure management, automation testing,
-                            and data analysis. Specialized in Python automation, network security, and
-                            delivering high-quality technical solutions for improved operational efficiency.
+                            IT professional with 4+ years' experience in automation, Python development, and data analysis. I build reliable automation and data solutions that improve operational efficiency.
                         </p>
                     </div>
 
