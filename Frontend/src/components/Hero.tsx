@@ -31,7 +31,7 @@ export function Hero() {
                             <span className="gradient-text">QA Automation Engineer & Python Developer</span>
                         </h1>
                         <p className="hero-description">
-                            IT professional with 4+ years' experience in automation, Python development, and data analysis. I build reliable automation and data solutions that improve operational efficiency.
+                            QA Tester / QA Engineer (Manual & Automation) IT Professional with over 4 years of experience in manual testing, test case execution, regression testing, API testing, and Python-based test automation also skilled in system analysis, data automation, and application support. Strong background in manual and automated testing, Python-based automation, API testing, and web technologies (HTML, CSS, JavaScript). Proven ability to improve system reliability and operational efficiency through test automation, data validation, and process optimization.
                         </p>
                     </div>
 
@@ -49,6 +49,15 @@ export function Hero() {
                             className="btn btn-secondary"
                         >
                             Get In Touch
+                        </a>
+                        <a
+                            href="/Robin_Domingo_Resume.pdf"
+                            className="btn btn-outline"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Download resume"
+                        >
+                            Download Resume
                         </a>
                     </div>
 

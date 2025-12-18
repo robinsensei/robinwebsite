@@ -19,7 +19,7 @@ export function About() {
                         About Me
                     </h2>
                     <p className="section-subtitle">
-                        Experienced IT professional with over 4 years of hands-on experience in IT infrastructure, automation testing, data analysis, and technical support. Skilled in network infrastructure management, backup and disaster recovery, and implementing IT security policies to deliver reliable technical solutions and automation that improve operational efficiency.
+                        QA and Automation-focused IT Professional with over 4 years of experience in system analysis, data automation, and application support. Strong background in manual and automated testing, Python-based automation, API testing, and web technologies (HTML, CSS, JavaScript). Proven ability to improve system reliability and operational efficiency through test automation, data validation, and process optimization.
                     </p>
                 </div>
 

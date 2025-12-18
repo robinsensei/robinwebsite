@@ -17,24 +17,25 @@ const experiences: Experience[] = [
         location: 'Pasig, Quezon City',
         period: 'April 2024 – December 2024',
         achievements: [
-            'Automated data gathering, cleaning, and reporting using Python and spreadsheets — reduced manual reporting time by 40%',
-            'Built complex Google Sheets and Excel solutions for reliable data collection, tracking, and consolidation',
-            'Produced clear data visualizations and dashboards to surface key logistics metrics for stakeholders'
+            'Automated data gathering, validation, and reporting using Python and spreadsheets, reducing manual processing time by 40%.',
+            'Performed manual and automated QA testing to validate system functionality, data accuracy, and backend processes.',
+            'Executed API testing to verify data integrity, response accuracy, and system behavior.',
+            'Designed and maintained test data sets using Google Sheets and Excel for validation and reporting.',
+            'Created data visualizations and reports to support defect analysis and performance tracking.'
         ]
     },
     {
-        id: 2,
-        role: 'Data System Analyst (ICTD)',
-        company: 'Cooperative Development Authority',
-        location: 'Cubao, Quezon City',
-        period: 'June 2021 – December 2023',
+    id: 2,
+    role: 'Data System Analyst (ICTD)',
+    company: 'Cooperative Development Authority',
+    location: 'Cubao, Quezon City',
+    period: 'June 2021 – January 2023',
         achievements: [
-            'Analyzed and monitored information systems to ensure data accuracy and system reliability',
-            'Performed QA activities including manual testing, Python automation, and API testing to validate functionality and data integrity',
-            'Troubleshot and resolved 50+ hardware and software issues per month, maintaining high user satisfaction',
-            'Configured and maintained workstations, devices, and software to support business operations',
-            'Provided end-user support via phone, email, and in-person assistance; delivered user training to improve adoption',
-            'Implemented an Access database to optimize resource utilization and reduce operational costs'
+            'Monitored and maintained internal information systems to ensure data accuracy, system stability, and performance.',
+            'Troubleshot and resolved 50+ system, hardware, and software issues per month, identifying root causes and preventing recurrence.',
+            'Assisted in system testing and validation during deployments and configuration changes.',
+            'Created and maintained an Access database to support system tracking and resource utilization.',
+            'Provided user support and training, ensuring proper system usage and issue reporting.'
         ]
 
     },
@@ -45,9 +46,10 @@ const experiences: Experience[] = [
         location: 'Cubao, Quezon City',
         period: 'February 2019 – June 2021',
         achievements: [
-            'Provided technical support to Finance and HR divisions, streamlining processes and improving workflow efficiency',
-            'Supported finance operations including payroll, accounts payable/receivable, and preparation of financial statements',
-            'Developed budgetary controls and maintained accurate recordkeeping systems to support audits and reporting'
+            'Provided technical assistance to the Finance and HR Divisions, helping to streamline their processes and improve workflow.',
+            'Contributed to finance operations by overseeing budgets, payroll, and accounts payable and receivable.',
+            'Assisted in testing financial processes related to payroll, budgeting, and reporting.',
+            'Maintained documentation and records to support audits and system verification.'
         ]
     }
 ];

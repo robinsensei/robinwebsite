@@ -55,9 +55,9 @@ const projects: Project[] = [
     },
     {
         id: 8,
-        title: 'Full-Stack Web Project',
-        description: 'Full-stack application with a Java backend and React + Vite frontend. Deployed to Azure and Vercel for scalable hosting and fast delivery at the edge.',
-        tags: ['Java', 'React', 'Vite', 'Azure', 'Vercel', 'Web Development'],
+        title: 'UrbanSync – Transportation Tracking Web Application',
+        description: 'Developed a full-stack transportation tracking system using React (Vite) and a Java Spring Boot backend with MySQL. Backend services were deployed on Microsoft Azure and the frontend on Vercel. Performed manual and automated testing (Selenium & Pytest) to validate UI, APIs, and data integrity.',
+        tags: ['React', 'Vite', 'Java', 'Spring Boot', 'MySQL', 'Azure', 'Vercel', 'QA', 'Testing'],
         image: 'https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&h=600&fit=crop',
         liveUrl: 'https://urban-sync.vercel.app/',
         githubUrl: 'https://github.com/robinsensei/urbansync-prod',
